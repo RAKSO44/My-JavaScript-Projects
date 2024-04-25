@@ -1,0 +1,33 @@
+
+#Contador{
+    display: block;
+    text-align: center;
+    background-color: rgb(146, 250, 215);
+    font-size: 3em;
+    font-family: Helvetica;
+    border-radius: 10px;
+    margin: 40px;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    border-color: rgb(56, 88, 118);
+    background-color:rgb(116, 173, 206);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.buttons:hover{
+    background-color: rgb(54, 87, 137);
+    transition: background-color 0.5s;
+}
